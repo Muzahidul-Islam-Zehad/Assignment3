@@ -34,7 +34,8 @@
         .manrope-font {
             font-family: "Manrope", sans-serif;
         }
-        .default-width{
+
+        .default-width {
             width: calc(100% - 9.38%);
         }
     </style>
@@ -43,61 +44,81 @@
 <body>
     <header class="default-width mx-auto">
         <!-- navbar -->
-        <div class="grid-cols-2 grid lg:grid-cols-3 items-center justify-between mt-12">
-            <div class="flex">
-                <div class="mr-2.5">
+        <section>
+            <div class="grid-cols-2 grid lg:grid-cols-3 items-center justify-between mt-12">
+                <div class="flex">
+                    <div class="mr-2.5">
+                        <i
+                            class="fa-solid fa-arrow-right bg-[#ABEF5F] text-2xl -rotate-45 h-10 w-10 rounded-full content-center text-center"></i>
+                    </div>
+                    <div>
+                        <h1 class="manrope-font font-extrabold text-4xl">Rinterio</h1>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
+                    <ul class="flex space-x-9 text-[#737373]">
+                        <li><a href="#" class="font-bold text-[#494949]">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="hidden lg:block">
+                    <div class="flex space-x-4 items-center justify-end">
+                        <div>
+                            <a href=""><i
+                                    class="fa-solid fa-magnifying-glass h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
+
+                        </div>
+                        <div>
+                            <a href=""><i
+                                    class="fa-solid fa-cart-shopping h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
+
+                        </div>
+                        <div>
+                            <button class="flex space-x-2 bg-[#ABEF5F] rounded-full p-3">
+                                <h1 class="font-bold text-xl">Book Consult</h1>
+                                <i
+                                    class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white text-xl -rotate-45 h-8 w-8 rounded-full content-center text-center"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="lg:hidden">
+                    <div class="text-end">
+                        <a href=""><i
+                                class="fa-solid fa-bars h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- banner -->
+        <div class="text-center lg:px-10">
+            <div>
+                <img class="mx-auto mt-14" src="assets/banner.png" alt="">
+            </div>
+            <div>
+                <h1 class="font-extrabold text-3xl lg:text-6xl text-black mt-6">A barn house of this design has a striking appearance</h1>
+                <p class="text-sm lg:text-base font-medium text-[#494949] mt-6 mb-8">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+            </div>
+            <div >
+                <button class="flex space-x-2 bg-[#ABEF5F80] rounded-full p-3 mx-auto items-center justify-center w-full lg:w-48">
+                    <h1 class="font-bold text-xl">View Details</h1>
                     <i
-                        class="fa-solid fa-arrow-right bg-[#ABEF5F] text-2xl -rotate-45 h-10 w-10 rounded-full content-center text-center"></i>
-                </div>
-                <div>
-                    <h1 class="manrope-font font-extrabold text-4xl">Rinterio</h1>
-                </div>
-            </div>
-
-
-            <div class="hidden lg:block">
-                <ul class="flex space-x-9 text-[#737373]">
-                    <li><a href="#" class="font-bold text-[#494949]">Home</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-
-            <div class="hidden lg:block">
-                <div class="flex space-x-4 items-center justify-end">
-                    <div>
-                        <a href=""><i
-                                class="fa-solid fa-magnifying-glass h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
-
-                    </div>
-                    <div>
-                        <a href=""><i
-                                class="fa-solid fa-cart-shopping h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
-
-                    </div>
-                    <div>
-                        <button class="flex space-x-2 bg-[#ABEF5F] rounded-full p-3">
-                            <h1 class="font-bold text-xl">Book Consult</h1>
-                            <i
-                                class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white text-xl -rotate-45 h-8 w-8 rounded-full content-center text-center"></i>
-                        </button>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div class="lg:hidden">
-                <div class="text-end">
-                    <a href=""><i
-                            class="fa-solid fa-bars h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
-
-                </div>
+                        class="fa-solid fa-arrow-right bg-[#acef5f] text-black text-xl -rotate-45 h-8 w-8 rounded-full content-center text-center"></i>
+                </button>
             </div>
         </div>
-
     </header>
 
 
