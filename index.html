@@ -1,27 +1,114 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment3</title>
-
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- DaisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Tailwind script -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
+
+    <!-- Fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+        }
+        .default-width{
+            width: calc(100% - 9.38%);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header class="default-width mx-auto">
+        <!-- navbar -->
+        <div class="grid-cols-2 grid lg:grid-cols-3 items-center justify-between mt-12">
+            <div class="flex">
+                <div class="mr-2.5">
+                    <i
+                        class="fa-solid fa-arrow-right bg-[#ABEF5F] text-2xl -rotate-45 h-10 w-10 rounded-full content-center text-center"></i>
+                </div>
+                <div>
+                    <h1 class="manrope-font font-extrabold text-4xl">Rinterio</h1>
+                </div>
+            </div>
+
+
+            <div class="hidden lg:block">
+                <ul class="flex space-x-9 text-[#737373]">
+                    <li><a href="#" class="font-bold text-[#494949]">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="hidden lg:block">
+                <div class="flex space-x-4 items-center justify-end">
+                    <div>
+                        <a href=""><i
+                                class="fa-solid fa-magnifying-glass h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
+
+                    </div>
+                    <div>
+                        <a href=""><i
+                                class="fa-solid fa-cart-shopping h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
+
+                    </div>
+                    <div>
+                        <button class="flex space-x-2 bg-[#ABEF5F] rounded-full p-3">
+                            <h1 class="font-bold text-xl">Book Consult</h1>
+                            <i
+                                class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white text-xl -rotate-45 h-8 w-8 rounded-full content-center text-center"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="lg:hidden">
+                <div class="text-end">
+                    <a href=""><i
+                            class="fa-solid fa-bars h-12 w-12 rounded-full content-center text-center border border-[#E9E9E9] text-xl"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
 </body>
+
 </html>
